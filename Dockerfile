@@ -1,5 +1,5 @@
 # Debian Based Docker
-FROM debian:latest
+FROM debian:11
 
 # Installing Packages
 RUN apt update && apt upgrade -y
